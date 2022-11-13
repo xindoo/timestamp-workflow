@@ -94,8 +94,8 @@ if __name__ == '__main__':
         getTime(ts)
 ```
 在Alfred的配置如下：
-![在这里插入图片描述](https://img-blog.csdnimg.cn/5513e5ce5dda44f2a642244c9a248138.png?x-oss-process=image/watermark,type_d3F5LXplbmhlaQ,shadow_50,text_Q1NETiBAeGluZG9v,size_20,color_FFFFFF,t_70,g_se,x_16#pic_center =700x)
-最后附上Workflow的下载链接: [https://pan.baidu.com/s/1PVS9XvKe-2fle2ZrreCWPA?pwd=ukd8](https://pan.baidu.com/s/1PVS9XvKe-2fle2ZrreCWPA?pwd=ukd8 ) 提取码: ukd8 
+![在这里插入图片描述](https://img-blog.csdnimg.cn/5513e5ce5dda44f2a642244c9a248138.png?x-oss-process=image/watermark,type_d3F5LXplbmhlaQ,shadow_50,text_Q1NETiBAeGluZG9v,size_20,color_FFFFFF,t_70,g_se,x_16#pic_center)
+最后附上Workflow的下载链接: [https://pan.baidu.com/s/1PVS9XvKe-2fle2ZrreCWPA?pwd=ukd8](https://pan.baidu.com/s/1PVS9XvKe-2fle2ZrreCWPA?pwd=ukd8) 提取码: ukd8 
 
 ### 2022-10-30补充
 因为我在workflow里写死了python的路径，所以大家下载后可能无法使用，需要手动更改为你自己电脑上的python安装路径，如下图：
