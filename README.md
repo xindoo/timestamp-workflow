@@ -2,10 +2,10 @@
 
 先说下我这个workflow实现的几个功能：
 1. 可以获取当前的时间，支持获取秒级时间戳，毫秒级时间戳，以及`yyyy-MM-dd`和`yyyy-MM-dd HH:mm:ss`的日期格式。 
-![在这里插入图片描述](https://img-blog.csdnimg.cn/a2f51e67db1f493d85a8f561331c230b.png?x-oss-process=image/watermark,type_d3F5LXplbmhlaQ,shadow_50,text_Q1NETiBAeGluZG9v,size_20,color_FFFFFF,t_70,g_se,x_16#pic_center =500x)
-2. 可以将秒级或者毫秒级的时间戳转为`yyyy-MM-dd`和`yyyy-MM-dd HH:mm:ss`的日期格式。![在这里插入图片描述](https://img-blog.csdnimg.cn/4b0dee644258499b894855a9c64c302b.png?x-oss-process=image/watermark,type_d3F5LXplbmhlaQ,shadow_50,text_Q1NETiBAeGluZG9v,size_20,color_FFFFFF,t_70,g_se,x_16#pic_center =500x)
+![在这里插入图片描述](https://img-blog.csdnimg.cn/a2f51e67db1f493d85a8f561331c230b.png?x-oss-process=image/watermark,type_d3F5LXplbmhlaQ,shadow_50,text_Q1NETiBAeGluZG9v,size_20,color_FFFFFF,t_70,g_se,x_16#pic_center)
+2. 可以将秒级或者毫秒级的时间戳转为`yyyy-MM-dd`和`yyyy-MM-dd HH:mm:ss`的日期格式。![在这里插入图片描述](https://img-blog.csdnimg.cn/4b0dee644258499b894855a9c64c302b.png?x-oss-process=image/watermark,type_d3F5LXplbmhlaQ,shadow_50,text_Q1NETiBAeGluZG9v,size_20,color_FFFFFF,t_70,g_se,x_16#pic_center)
 3. 当然也可以将`yyyy-MM-dd`和`yyyy-MM-dd HH:mm:ss`格式的日期转为秒级和毫秒级的时间戳。
-![在这里插入图片描述](https://img-blog.csdnimg.cn/f4b8afcd4ef74245b91a822cecd27a42.png?x-oss-process=image/watermark,type_d3F5LXplbmhlaQ,shadow_50,text_Q1NETiBAeGluZG9v,size_20,color_FFFFFF,t_70,g_se,x_16#pic_center =500x)
+![在这里插入图片描述](https://img-blog.csdnimg.cn/f4b8afcd4ef74245b91a822cecd27a42.png?x-oss-process=image/watermark,type_d3F5LXplbmhlaQ,shadow_50,text_Q1NETiBAeGluZG9v,size_20,color_FFFFFF,t_70,g_se,x_16#pic_center)
 
 下文将很具体的教授大家如何实现上述功能，相信以大家的学习能力，很快也能写出其他。如果不想写，文末附上了下载链接，你可以直接拿去使用。 
 
@@ -99,5 +99,6 @@ if __name__ == '__main__':
 
 ### 2022-10-30补充
 因为我在workflow里写死了python的路径，所以大家下载后可能无法使用，需要手动更改为你自己电脑上的python安装路径，如下图：
-![在这里插入图片描述](https://img-blog.csdnimg.cn/b4c7e4e9816642d483ff92c445677216.jpeg#pic_center =500x)
+![在这里插入图片描述](https://img-blog.csdnimg.cn/b4c7e4e9816642d483ff92c445677216.jpeg#pic_center)  
+
 代码已开源到github [https://github.com/xindoo/timestamp-workflow](https://github.com/xindoo/timestamp-workflow)
